@@ -158,8 +158,8 @@ function Portfolio() {
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
             <a href="#highlights">Highlights</a>
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
             <a href="/public/resume.pdf" className="btn btn-primary">Resume</a>
           </nav>
@@ -303,7 +303,7 @@ function Portfolio() {
         {/* 06. Education Section - Where you're studying */}
         <section id="education" className="education section-spacing">
           <div className="section-header">
-            <span className="section-number">04 — EDUCATION</span>
+            <span className="section-number">05 — EDUCATION</span>
             <h2>Where I'm studying.</h2>
           </div>
           <div className="card education-card">
@@ -319,7 +319,7 @@ function Portfolio() {
         {/* 07. Contact Section - Let's get in touch */}
         <section id="contact" className="contact section-spacing">
           <div className="section-header">
-            <span className="section-number">05 — CONTACT</span>
+            <span className="section-number">06 — CONTACT</span>
             <h2>Let's talk.</h2>
           </div>
           <div className="contact-grid">
