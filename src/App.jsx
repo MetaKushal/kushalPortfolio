@@ -161,9 +161,9 @@ function Portfolio() {
             <a href="#highlights">Highlights</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
-            {/* Change this: href="/Kushal_Resume.pdf" */}
+            {/* Change this: href="/resume.pdf" */}
 {/* To this: */}
-<a href="./Kushal_Resume.pdf" download="Kushal_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Resume</a>
+<a href="./resume.pdf" download="resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Resume</a>
           </nav>
         </div>
       </header>
@@ -333,9 +333,9 @@ function Portfolio() {
                 <li><span className="icon">🐙</span> <a href={contactInfo.githubSimply} target="_blank" rel="noopener noreferrer">GitHub · @SimplyKushal</a></li>
                 <li><span className="icon">🐙</span> <a href={contactInfo.githubMeta} target="_blank" rel="noopener noreferrer">GitHub · @MetaKushal</a></li>
               </ul>
-              {/* Change this: href="/Kushal_Resume.pdf" */}
+              {/* Change this: href="/resume.pdf" */}
 {/* To this: */}
-<a href="./Kushal_Resume.pdf" download="Kushal_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Download résumé (PDF)</a>
+<a href="./resume.pdf" download="resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Download résumé (PDF)</a>
             </div>
             <div className="card contact-form-card">
               <h3>Send me a message</h3>
