@@ -44,7 +44,7 @@ const projects = [
     solution: 'Developed a simulation tool with an interactive UI to model train routes and allow users to dynamically adjust system parameters like train speed and timetables.', //[cite: 2]
     outcome: 'Produced a visual prototype that effectively demonstrates how frequency and parameter changes impact network crowding and efficiency.', //[cite: 2]
     tech: ['Python', 'JavaScript', 'Algorithms'], //[cite: 2]
-    liveDemo: '#',
+    //liveDemo: '#',
     github: 'https://github.com/SimplyKushal/MetroSim'
   },
   {
@@ -54,18 +54,30 @@ const projects = [
     solution: 'Built a 100% offline Windows desktop application that uses lightweight transformer models and multi-layered processing for real-time text correction across all applications.', //[cite: 1]
     outcome: 'Achieved seamless, non-intrusive text enhancement that adapts to user writing styles while maintaining complete data privacy.', //[cite: 1]
     tech: ['Python', 'Transformers', 'SQLite', 'pynput'], //[cite: 1]
-    liveDemo: '#', // No live demo for desktop apps
+    //liveDemo: '#', // No live demo for desktop apps
     github: 'https://github.com/SimplyKushal/intelligent-autocorrect-system'
   },
+
   {
-    number: '05',
+    number: '05', 
+    title: 'PlanPilot',
+    problem: 'Project planning often fails when it relies solely on task lists without capturing purpose, scope, and operating context, leading to vague workflows and burnout risk[cite: 1, 2].',
+    solution: 'Architected a React and TypeScript single-page application (SPA) featuring a charter generation engine, structured task management, and Supabase-backed authentication and persistence[cite: 1, 4].',
+    outcome: 'Delivered a full-lifecycle planning workspace that blends project execution with reflective decision support, behavior pattern guidance, and automated PDF charter exports[cite: 1, 2, 10].',
+    tech: ['React', 'TypeScript', 'Tailwind', 'Supabase'], // [cite: 5]
+    //liveDemo: '#', // Not live currently
+    github: 'https://github.com/MetaKushal/PlanPilot' // Add your repo link here
+  },
+
+  {
+    number: '06',
     title: 'Readme File Generator',
     problem: 'Creating professional, well-formatted GitHub README files is tedious and time-consuming for developers.',
     solution: 'Created an interactive tool that generates formatted Markdown based on simple user form inputs.',
     outcome: 'Saves significant time for developers while ensuring standard, high-quality documentation across repositories.',
     tech: ['React', 'JavaScript', 'CSS'],
-    liveDemo: '#',
-    github: '#' 
+    //liveDemo: '#',
+    //github: '#' 
   }
   // Add more projects here following the same structure
 ];
